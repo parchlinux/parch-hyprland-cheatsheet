@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ParchLinux Hyprland Keybind Cheatsheet
+Comment=Hyprland Keybind Guide for ParchLinux
+Exec=/opt/parch-hyprland-cheatsheet/run.sh
+Terminal=false
+Type=Application
+Categories=Utility;
