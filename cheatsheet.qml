@@ -96,12 +96,26 @@ ShellRoot {
                 anchors.margins: 24
                 spacing: 16
 
-                Text {
-                    text: "Welcome to parch linux hyprland"
-                    color: win.cOnSurface
-                    font.family: win.fontMain
-                    font.pixelSize: 22
-                    font.weight: Font.Medium
+                RowLayout {
+                    Layout.fillWidth: true
+                    spacing: 10
+
+                    Image {
+                        source: "icon.svg"
+                        Layout.preferredWidth: 32
+                        Layout.preferredHeight: 32
+                        fillMode: Image.PreserveAspectFit
+                        sourceSize.width: 32
+                        sourceSize.height: 32
+                    }
+
+                    Text {
+                        text: "Welcome to parch linux hyprland"
+                        color: win.cOnSurface
+                        font.family: win.fontMain
+                        font.pixelSize: 22
+                        font.weight: Font.Medium
+                    }
                 }
                 Text {
                     text: "Hyprland Keybind Cheatsheet"
@@ -244,16 +258,31 @@ ShellRoot {
                 anchors.fill: parent
                 radius: height / 2
                 color: sw.checked ? win.cOnSurface : win.cOutline
+                Behavior on color {
+                    ColorAnimation {
+                        duration: 180
+                        easing.type: Easing.OutCubic
+                    }
+                }
             }
             Rectangle {
+                id: thumb
                 width: 16; height: 16; radius: 8
                 y: 3
                 x: sw.checked ? parent.width - width - 3 : 3
                 color: win.cBg
+                Behavior on x {
+                    NumberAnimation {
+                        duration: 220
+                        easing.type: Easing.OutBack
+                    }
+                }
             }
             MouseArea {
                 anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor
                 onClicked: sw.toggled(!sw.checked)
+
             }
         }
         

@@ -2,6 +2,7 @@
 Name=ParchLinux Hyprland Keybind Cheatsheet
 Comment=Hyprland Keybind Guide for ParchLinux
 Exec=/opt/parch-hyprland-cheatsheet/run.sh
+Icon=/opt/parch-hyprland-cheatsheet/icon.svg
 Terminal=false
 Type=Application
 Categories=Utility;
