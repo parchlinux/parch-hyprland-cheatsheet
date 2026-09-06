@@ -20,7 +20,7 @@ ShellRoot {
 
         readonly property string fontMain: "Google Sans"
 
-        property string scriptPath: "/opt/parch-hyprland-cheatsheet/cheatsheet"
+        property string scriptPath: "/opt/parch-hyprland-cheatsheet/cheatsheet.qml"
         property string hyprConfPath: Quickshell.env("HOME") + "/.config/hypr/hyprland.lua"
         readonly property string autostartLine:'hl.exec_cmd("qs -p ' + win.scriptPath + '")'
         readonly property string autostartBlock: 'hl.on("hyprland.start", function()' + autostartLine + '' + 'end)'
