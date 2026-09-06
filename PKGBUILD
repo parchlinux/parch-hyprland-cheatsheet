@@ -7,7 +7,7 @@ license=('GPL3')
 depends=('quickshell')
 source=('cheatsheet.qml' 'run.sh' 'parch-hyprland-cheatsheet.desktop' 'icon.svg')
 sha256sums=(
-    '8e233cd3b59fa23f1497a92917f4ac65ef28bb4e6d1d9d29a75f7650cecb76c9' 
+    '4a51fa91219c68e6a211cdd62daecf2bd9b88a5868a2fe26cf107101d470a427' 
     'e80be2bb33fe43d2be4ab02b417939755fb1cdcd37114e9764196313b55b7da1'
     '4cb9b0e5552168f636f4700f3521a975b58af8d3fd637667112a1ce8fb539893' 
     '27f25e22f8b67270bb6a4c9661b898ef35a0b470ed3dc9908596cb034a51abb4'

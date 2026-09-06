@@ -110,7 +110,7 @@ ShellRoot {
                     }
 
                     Text {
-                        text: "Welcome to parch linux hyprland"
+                        text: "Welcome to ParchLinux Hyprland"
                         color: win.cOnSurface
                         font.family: win.fontMain
                         font.pixelSize: 22
