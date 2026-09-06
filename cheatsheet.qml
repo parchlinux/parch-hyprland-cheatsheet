@@ -258,4 +258,11 @@ ShellRoot {
         }
         
     }
+    Connections {
+        target: Quickshell
+
+        function onLastWindowClosed() {
+            Qt.quit()
+        }
+    }
 }
