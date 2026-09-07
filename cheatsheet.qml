@@ -59,17 +59,18 @@ ShellRoot {
 
 
         property var binds: [
-            { combo: ["SUPER", "Q"],        desc: "Open terminal" },
+            { combo: ["SUPER", "Q"],              desc: "Open terminal" },
             { combo: ["SUPER", "E"],              desc: "Open file manager" },
             { combo: ["SUPER", "R"],              desc: "Open app launcher" },
             { combo: ["SUPER", "C"],              desc: "Close active window" },
             { combo: ["SUPER", "V"],              desc: "Toggle floating window" },
             { combo: ["SUPER", "1‑9"],            desc: "Switch to workspace" },
             { combo: ["SUPER", "SHIFT", "1‑9"],   desc: "Move window to workspace" },
-            { combo: ["SUPER", "SHIFT", "1-9"], desc: "Move active window" },
+            { combo: ["SUPER", "SHIFT", "1-9"],   desc: "Move active window" },
             { combo: ["SUPER", "Mouse Right"],    desc: "Resize window (drag)" },
             { combo: ["CTRL", "SHIFT", "S"],      desc: "Screenshot (selection)" },
-            { combo: ["CTRL", "S"],               desc: "Screenshot (full screen)" }
+            { combo: ["CTRL", "S"],               desc: "Screenshot (full screen)" },
+            { combo: ["SUPER", "ALT" , "E"],      desc: "Change Current Tiling Layout" }
         ]
         property var links: [
             { label: "Website", url: "https:/parchlinux.com"},
