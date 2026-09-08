@@ -70,7 +70,8 @@ ShellRoot {
             { combo: ["SUPER", "Mouse Right"],    desc: "Resize window (drag)" },
             { combo: ["CTRL", "SHIFT", "S"],      desc: "Screenshot (selection)" },
             { combo: ["CTRL", "S"],               desc: "Screenshot (full screen)" },
-            { combo: ["SUPER", "ALT" , "E"],      desc: "Change Current Tiling Layout" }
+            { combo: ["SUPER", "ALT" , "E"],      desc: "Change Current Tiling Layout" },
+            { combo: ["SUPER" , "ALT"],           desc:"Toggle Overview"}
         ]
         property var links: [
             { label: "Website", url: "https:/parchlinux.com"},
